@@ -10,12 +10,11 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 @ToString
-public class Customer {
+public class User {
 
     private int id;
     private String name;
     private String email;
-    private List<String> phoneNumbers;
     private String status;
 
 
